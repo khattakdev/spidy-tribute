@@ -58,6 +58,22 @@ nav .search-btn {
 
 .section-services {
   background-color: yellow;
+  padding-left: 300px;
+  padding-right: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-services .see-more {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 50px;
+}
+
+.services-image {
+  height: 300px;
 }
 
 h2 {
@@ -65,6 +81,117 @@ h2 {
   margin-bottom: 0;
 }
 
-.services-content {
+.content {
   width: 50%;
+}
+
+.section-packages {
+  background-color: black;
+  font-size: 22px;
+  color: white;
+  display: flex;
+  padding-bottom: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  position: relative;
+}
+
+.circle {
+  background-color: black;
+  height: 100px;
+  width: 120px;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+}
+
+.section-packages .package {
+  margin: 0 30px;
+}
+.section-packages h4 {
+  color: yellow;
+  font-size: 30px;
+}
+
+.section-packages button {
+  color: white;
+  background-color: red;
+  padding: 5px 25px;
+  font-size: 20px;
+  border-radius: 50px;
+}
+
+.section-touch {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 0px;
+}
+
+.section-touch h2 {
+  margin-bottom: 40px;
+}
+
+.section-touch .image {
+  background-color: beige;
+  height: 200px;
+  width: 800px;
+  margin: 50px auto 0 auto;
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 2px 5px 20px #00000072;
+}
+
+footer {
+  height: 700px;
+  font-size: 20px;
+  background-color: yellow;
+  padding: 50px 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .get-touch {
+  width: 55%;
+}
+
+footer .stay-touch {
+  width: 35%;
+}
+
+footer .get-touch .links {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .get-touch .links ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+footer .stay-touch .get-email-input {
+  height: 38px;
+  width: 250px;
+  outline: none;
+  border: none;
+}
+
+footer .stay-touch .get-emails {
+  display: flex;
+}
+footer .stay-touch .get-email-btn {
+  height: 38px;
+  width: 60px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .stay-touch .get-email-btn a {
+  color: white;
+  text-decoration: none;
 }
